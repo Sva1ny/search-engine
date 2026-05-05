@@ -1,0 +1,18 @@
+<!DOCTYPE RCC>
+<RCC version="1.0"/>
+/* styles.qss */
+
+QPushButton {
+    background-color: #4CAF50; /* 设置背景颜色 */
+    color: white; /* 设置文本颜色 */
+    border: none; /* 去掉边框 */
+    padding: 10px 20px; /* 设置内边距 */
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #0d8050; /* 按钮被按下时的背景颜色 */
+}
